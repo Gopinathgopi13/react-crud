@@ -1,0 +1,46 @@
+form{
+    background-color: aqua;
+    height: 500px;
+    width: 50%;
+    margin: 100px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+form div{
+    /* border: 1px solid red; */
+    height: 40px;
+    /* margin: 5px; */
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    /* align-items: center; */
+}
+
+form div input{
+    width: 80%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+form div button{
+    border: none;
+    width: 200px;
+    color: white;
+    background-color: black;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}

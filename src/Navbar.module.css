@@ -1,0 +1,15 @@
+.navbar{
+    background-color: aqua;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    column-gap: 30px;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
